@@ -13,10 +13,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
+      <div className="background">
         <Traingle />
       </div>
-      <div></div>
+      <div className="content">
+        <h1>Zaid Akhter</h1>
+        <p>I create kool stuff</p>
+        <ul>
+          <li>
+            <a href="#">Link 1</a>
+          </li>
+          <li>
+            <a href="#">Link 2</a>
+          </li>
+          <li>
+            <a href="#">Link 3</a>
+          </li>
+          <li>
+            <a href="#">Link 4</a>
+          </li>
+        </ul>
+      </div>
     </>
   );
 }
