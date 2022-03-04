@@ -1,2 +1,1 @@
-# next-tailwind-starter
-NextJS + TailwindCSS starter
+# simple-portfolio

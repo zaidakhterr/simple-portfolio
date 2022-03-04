@@ -1,5 +1,8 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
 export default function handler(req, res) {
-  res.status(200).json({ name: "NextJS + TailwindCSS Starter" });
+  res
+    .status(200)
+    .json({
+      message: "Hi, Zaid here! Welcome to my conrner of the internet.",
+      links: [],
+    });
 }
