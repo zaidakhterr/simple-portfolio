@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Traingle from "../triangle.svg";
+import Image from "next/image";
+import Polygon from "../polygon.svg";
 
 export default function Home() {
   return (
@@ -12,27 +13,41 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <div className="background">
-        <Traingle />
+      <div className="header">
+        <Polygon />
       </div>
       <div className="content">
+        <Image src="/zaid.png" alt="Zaid Akhter" width="120px" height="120px" />
         <h1>Zaid Akhter</h1>
-        <p>I create kool stuff</p>
+        <p className="sub">
+          <a href="https://www.google.com/search?q=Karachi%3A+The+city+of+lights">
+            The City of Lights
+          </a>
+          , Pakistan
+        </p>
+        <p>I build awesome apps for people around the world.</p>
+        <h4>Reach out to me</h4>
+        <hr />
         <ul>
           <li>
-            <a href="#">Link 1</a>
+            <a href="#">Email</a>
           </li>
           <li>
-            <a href="#">Link 2</a>
+            <a href="#">GitHub</a>
           </li>
           <li>
-            <a href="#">Link 3</a>
+            <a href="#">LinkedIn</a>
           </li>
           <li>
-            <a href="#">Link 4</a>
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <a href="#">Upwork</a>
           </li>
         </ul>
+        <a className="feedback" href="#">
+          Help me improve
+        </a>
       </div>
     </>
   );
