@@ -23,7 +23,7 @@ export default function Home() {
           <a href="https://www.google.com/search?q=Karachi%3A+The+city+of+lights">
             The City of Lights
           </a>
-          , Pakistan
+          , Pakistan.
         </p>
         <p>I build awesome apps for people around the world.</p>
         <h4>Reach out to me</h4>
@@ -33,13 +33,13 @@ export default function Home() {
             <a href="#">Email</a>
           </li>
           <li>
-            <a href="#">GitHub</a>
-          </li>
-          <li>
             <a href="#">LinkedIn</a>
           </li>
           <li>
             <a href="#">Twitter</a>
+          </li>
+          <li>
+            <a href="#">GitHub</a>
           </li>
           <li>
             <a href="#">Upwork</a>
