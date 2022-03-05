@@ -14,13 +14,6 @@ export default function Home() {
           content="Zaid Akhter's corner of the internet."
         />
 
-        <meta itemProp="name" content="Zaid Akhter" />
-        <meta
-          itemProp="description"
-          content="Zaid Akhter's corner of the internet."
-        />
-        <meta itemProp="image" content="https://zaidakhter.com/card.png" />
-
         <meta property="og:url" content="https://zaidakhter.com" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Zaid Akhter" />
@@ -38,6 +31,13 @@ export default function Home() {
           content="Zaid Akhter's corner of the internet."
         />
         <meta name="twitter:image" content="https://zaidakhter.com/card.png" />
+
+        {/* <meta itemProp="name" content="Zaid Akhter" />
+        <meta
+          itemProp="description"
+          content="Zaid Akhter's corner of the internet."
+        />
+        <meta itemProp="image" content="https://zaidakhter.com/card.png" /> */}
       </Head>
       <div className="header">
         <div className="gradient" />
