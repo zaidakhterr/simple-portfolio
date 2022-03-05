@@ -19,9 +19,7 @@ export default function Home() {
         <Image src="/zaid.png" alt="Zaid Akhter" width="120px" height="120px" />
         <h1>Zaid Akhter</h1>
         <p className="sub">
-          <a href="https://www.google.com/search?q=Karachi%3A+The+city+of+lights">
-            The City of Lights
-          </a>
+          <a href="https://en.wikipedia.org/wiki/Karachi">The City of Lights</a>
           , Pakistan.
         </p>
         <p>I build awesome apps for people around the world.</p>
@@ -29,22 +27,24 @@ export default function Home() {
         <hr />
         <ul>
           <li>
-            <a href="#">Email</a>
+            <a href="mailto:zaidakhter1202@gmail.com">Email</a>
           </li>
           <li>
-            <a href="#">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/zaidakhterr/">LinkedIn</a>
           </li>
           <li>
-            <a href="#">Twitter</a>
+            <a href="https://twitter.com/zaidakhterr">Twitter</a>
           </li>
           <li>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/zaidakhterr">GitHub</a>
           </li>
           <li>
-            <a href="#">Upwork</a>
+            <a href="https://www.upwork.com/freelancers/~01c3f1d9695773d1f0">
+              Upwork
+            </a>
           </li>
         </ul>
-        <a className="feedback" href="#">
+        <a className="feedback" href="https://forms.gle/pVdALKuhwjLskJLx8">
           Help me improve
         </a>
       </div>
