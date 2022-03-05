@@ -18,7 +18,10 @@ export default function Home() {
           property="og:description"
           content="Zaid Akhter's corner of the internet."
         />
-        <meta property="og:image" content="https://zaidakhter.com/card.png" />
+        <meta
+          property="og:image"
+          content="https://zaidakhter.com/images/card.png"
+        />
 
         <meta property="twitter:url" content="https://zaidakhter.com" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -27,9 +30,12 @@ export default function Home() {
           name="twitter:description"
           content="Zaid Akhter's corner of the internet."
         />
-        <meta name="twitter:image" content="https://zaidakhter.com/card.png" />
+        <meta
+          name="twitter:image"
+          content="https://zaidakhter.com/images/card.png"
+        />
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
         <meta name="theme-color" content="#000" />
 
         {/* <meta itemProp="name" content="Zaid Akhter" />
@@ -37,14 +43,14 @@ export default function Home() {
           itemProp="description"
           content="Zaid Akhter's corner of the internet."
         />
-        <meta itemProp="image" content="https://zaidakhter.com/card.png" /> */}
+        <meta itemProp="image" content="https://zaidakhter.com/images/card.png" /> */}
       </Head>
       <div className="header">
         <div className="gradient" />
       </div>
       <div className="content">
         <Image
-          src="/zaid.png"
+          src="/images/zaid.png"
           alt="Zaid Akhter"
           width="120px"
           height="120px"
@@ -57,7 +63,7 @@ export default function Home() {
           , Pakistan.
         </p>
         <p>I build awesome apps for people around the world.</p>
-        <h4>Reach out to me</h4>
+        <h2>Reach out to me</h2>
         <hr />
         <ul>
           <li>
