@@ -101,6 +101,7 @@ a:active {
   top: 0px;
   transform: translateY(-60%);
   left: 1.25rem;
+  border-radius: 1000px;
 }
 
 .content h1 {
