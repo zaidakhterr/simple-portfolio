@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Polygon from "../polygon.svg";
 
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="header">
-        <Polygon />
+        <div className="gradient" />
       </div>
       <div className="content">
         <Image src="/zaid.png" alt="Zaid Akhter" width="120px" height="120px" />

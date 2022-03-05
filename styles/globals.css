@@ -7,7 +7,8 @@
 }
 
 *::selection {
-  background-color: #222;
+  background-color: #3e88f6;
+  color: #fff;
 }
 
 body {
@@ -34,15 +35,39 @@ a:active {
   justify-content: center;
   width: 100%;
   height: 180px;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+/* https://toolbox.signalsupply.co/ */
+.gradient {
+  width: 440px;
+  height: 440px;
+  filter: blur(100px);
+  transform: skewX(-45deg) skewY(-25deg);
+  opacity: 0.8;
+  background: linear-gradient(
+      197.37deg,
+      #7450db -0.38%,
+      rgba(138, 234, 240, 0) 101.89%
+    ),
+    linear-gradient(
+      115.93deg,
+      #3e88f6 4.86%,
+      rgba(62, 180, 246, 0.33) 38.05%,
+      rgba(62, 235, 246, 0) 74.14%
+    ),
+    radial-gradient(
+      56.47% 76.87% at 6.92% 7.55%,
+      rgba(62, 136, 246, 0.7) 0%,
+      rgba(62, 158, 246, 0.182) 52.16%,
+      rgba(62, 246, 246, 0) 100%
+    ),
+    linear-gradient(306.53deg, #2ee4e3 19.83%, rgba(46, 228, 227, 0) 97.33%);
+  background-blend-mode: normal, normal, normal, normal, normal, normal;
 }
 
 .header svg {
   filter: blur(130px);
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
 }
 
 .header::after {
