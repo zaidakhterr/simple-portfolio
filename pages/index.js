@@ -5,9 +5,6 @@ export default function Home() {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="theme-color" content="#000" />
-
         <title>Zaid Akhter</title>
         <meta
           name="description"
@@ -31,6 +28,9 @@ export default function Home() {
           content="Zaid Akhter's corner of the internet."
         />
         <meta name="twitter:image" content="https://zaidakhter.com/card.png" />
+
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#000" />
 
         {/* <meta itemProp="name" content="Zaid Akhter" />
         <meta
