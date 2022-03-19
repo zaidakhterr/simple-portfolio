@@ -36,7 +36,12 @@ export default function Home() {
         />
 
         <link rel="icon" href="/images/favicon.ico" />
-        <meta name="theme-color" content="#000" />
+        <meta name="theme-color" content="#d7d7d7" />
+        <meta
+          name="theme-color"
+          content="#000"
+          media="(prefers-color-scheme: dark)"
+        ></meta>
 
         <meta itemProp="name" content="Zaid Akhter" />
         <meta
