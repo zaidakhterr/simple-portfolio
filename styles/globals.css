@@ -29,7 +29,7 @@ body {
   background: var(--background-color);
   height: 100vh;
   width: 100vw;
-  overflow: clip;
+  overflow-x: clip;
   font-family: "Merriweather", serif;
 }
 
