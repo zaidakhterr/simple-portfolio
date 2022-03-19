@@ -5,11 +5,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /* :root {
     --text-color: #d7d7d7;
     --background-color: #000;
     --link-color: #d1d1d1;
-  }
+  } */
 }
 
 *,
@@ -76,7 +76,7 @@ a:active {
       rgba(62, 246, 246, 0) 100%
     ),
     linear-gradient(306.53deg, #2ee4e3 19.83%, rgba(46, 228, 227, 0) 97.33%);
-  background-blend-mode: normal, normal, normal, normal, normal, normal;
+  /* background-blend-mode: normal, normal, normal, normal, normal, normal; */
 }
 
 .header::after {
@@ -179,7 +179,7 @@ a:active {
   }
 
   .content .feedback {
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
