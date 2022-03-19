@@ -58,13 +58,24 @@ export default function Home() {
       </div>
       <div className="content">
         <Image
-          src="/images/zaid.png"
+          src="/images/zaid-light.png"
           alt="Zaid Akhter"
           width="120px"
           height="120px"
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABtJREFUGFdj9Pf3///u3TsGRltb2/9v3rxhAABQrwkzPevuYAAAAABJRU5ErkJggg=="
+          className="light"
         />
+        <Image
+          src="/images/zaid-dark.png"
+          alt="Zaid Akhter"
+          width="120px"
+          height="120px"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABtJREFUGFdj9Pf3///u3TsGRltb2/9v3rxhAABQrwkzPevuYAAAAABJRU5ErkJggg=="
+          className="dark"
+        />
+
         <h1>Zaid Akhter</h1>
         <p className="sub">
           <a href="https://en.wikipedia.org/wiki/Karachi">The City of Lights</a>

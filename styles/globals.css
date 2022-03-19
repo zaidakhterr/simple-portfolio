@@ -4,11 +4,27 @@
   --link-color: #0a0a0a;
 }
 
+.light {
+  display: initial !important;
+}
+
+.dark {
+  display: none !important;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: #d7d7d7;
     --background-color: #000;
     --link-color: #d1d1d1;
+  }
+
+  .light {
+    display: none !important;
+  }
+
+  .dark {
+    display: initial !important;
   }
 }
 
