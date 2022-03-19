@@ -142,7 +142,18 @@ a:active {
 .content a {
   font-size: 0.8rem;
   color: var(--link-color);
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.content .sub {
   margin-bottom: 1.25rem;
+}
+
+.content :not(.sub) a {
+  display: inline-block;
+  width: 100%;
 }
 
 .content p {
@@ -188,14 +199,16 @@ a:active {
 
   .content ul {
     flex-direction: column;
+    margin-bottom: 3rem;
   }
 
   .content li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
   }
 
   .content .feedback {
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    width: 100%;
   }
 }
 
