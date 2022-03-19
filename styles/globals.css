@@ -1,3 +1,17 @@
+:root {
+  --text-color: #000;
+  --background-color: #d7d7d7;
+  --link-color: #0a0a0a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #d7d7d7;
+    --background-color: #000;
+    --link-color: #d1d1d1;
+  }
+}
+
 *,
 *::after,
 *::before {
@@ -12,7 +26,7 @@
 }
 
 body {
-  background: #000;
+  background: var(--background-color);
   height: 100vh;
   width: 100vw;
   overflow: clip;
@@ -28,14 +42,12 @@ a:active {
 
 .header {
   position: relative;
-  background: #000;
-  color: #202020;
+  background: var(--background-color);
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 180px;
-  /* overflow: hidden; */
   overflow-x: clip;
 }
 
@@ -86,7 +98,7 @@ a:active {
   height: calc(100vh - 180px);
   background: transparent;
   padding: 5rem 1rem 2rem;
-  color: #d7d7d7;
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -113,7 +125,7 @@ a:active {
 .content .sub,
 .content a {
   font-size: 0.8rem;
-  color: #abaaa6;
+  color: var(--link-color);
   margin-bottom: 1.25rem;
 }
 

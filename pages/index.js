@@ -38,12 +38,15 @@ export default function Home() {
         <link rel="icon" href="/images/favicon.ico" />
         <meta name="theme-color" content="#000" />
 
-        {/* <meta itemProp="name" content="Zaid Akhter" />
+        <meta itemProp="name" content="Zaid Akhter" />
         <meta
           itemProp="description"
           content="Zaid Akhter's corner of the internet."
         />
-        <meta itemProp="image" content="https://zaidakhter.com/images/card.png" /> */}
+        <meta
+          itemProp="image"
+          content="https://zaidakhter.com/images/card.png"
+        />
       </Head>
       <div className="header">
         <div className="gradient" />
