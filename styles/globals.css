@@ -5,11 +5,11 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  /* :root {
+  :root {
     --text-color: #d7d7d7;
     --background-color: #000;
     --link-color: #d1d1d1;
-  } */
+  }
 }
 
 *,
@@ -179,7 +179,7 @@ a:active {
   }
 
   .content .feedback {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 }
 
