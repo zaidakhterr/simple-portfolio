@@ -82,7 +82,7 @@ export default function Home() {
           , Pakistan.
         </p>
         <p>I build awesome apps for people around the world.</p>
-        <h2>Reach out to me</h2>
+        {/* <h2>Reach out to me</h2> */}
         <hr />
         <ul>
           <li>
@@ -103,9 +103,9 @@ export default function Home() {
             </a>
           </li>
         </ul>
-        <a className="feedback" href="https://forms.gle/pVdALKuhwjLskJLx8">
+        {/* <a className="feedback" href="https://forms.gle/pVdALKuhwjLskJLx8">
           Help me improve
-        </a>
+        </a> */}
       </div>
     </>
   );
