@@ -89,18 +89,16 @@ export default function Home() {
             <a href="mailto:zaidakhter1202@gmail.com">Email</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/zaidakhterr/">LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/zaidakhterr">Twitter</a>
+            <a href="https://www.upwork.com/freelancers/zaidakhter">Upwork</a>
           </li>
           <li>
             <a href="https://github.com/zaidakhterr">GitHub</a>
           </li>
           <li>
-            <a href="https://www.upwork.com/freelancers/~01c3f1d9695773d1f0">
-              Upwork
-            </a>
+            <a href="https://www.linkedin.com/in/zaidakhterr/">LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/zaidakhterr">Twitter</a>
           </li>
         </ul>
         {/* <a className="feedback" href="https://forms.gle/pVdALKuhwjLskJLx8">

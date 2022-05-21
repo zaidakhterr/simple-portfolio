@@ -131,8 +131,8 @@ a:active {
 .content > span {
   position: absolute !important;
   top: 0px;
-  transform: translateY(-60%);
-  left: 1.25rem;
+  transform: translateY(-55%);
+  left: 0.9rem;
   border-radius: 1000px;
 }
 
