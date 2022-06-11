@@ -89,7 +89,7 @@ export default function Home() {
             <a href="mailto:zaidakhter1202@gmail.com">Email</a>
           </li>
           <li>
-            <a href="https://www.upwork.com/freelancers/zaidakhter">Upwork</a>
+            <a href="https://www.upwork.com/freelancers/zaid">Upwork</a>
           </li>
           <li>
             <a href="https://github.com/zaidakhterr">GitHub</a>
