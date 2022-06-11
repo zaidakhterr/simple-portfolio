@@ -6,7 +6,7 @@ export default function handler(req, res) {
       upwork: "https://www.upwork.com/freelancers/zaidakhter",
       github: "https://github.com/zaidakhterr",
       linkedin: "https://www.linkedin.com/in/zaidakhterr/",
-      twitter: "https://twitter.com/zaidakhterr",
+      twitter: "https://twitter.com/zaid",
       // feedback: "https://forms.gle/pVdALKuhwjLskJLx8",
     },
   });

@@ -53,29 +53,30 @@ export default function Home() {
           content="https://zaidakhter.com/images/card.png"
         />
       </Head>
-      <div className="header">
+      {/* <div className="header">
         <div className="gradient" />
-      </div>
+      </div> */}
       <div className="content">
-        <Image
-          src="/images/zaid-light.png"
-          alt="Zaid Akhter"
-          width="120px"
-          height="120px"
-          placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABtJREFUGFdj9Pf3///u3TsGRltb2/9v3rxhAABQrwkzPevuYAAAAABJRU5ErkJggg=="
-          className="light"
-        />
-        <Image
-          src="/images/zaid-dark.png"
-          alt="Zaid Akhter"
-          width="120px"
-          height="120px"
-          placeholder="blur"
-          blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABtJREFUGFdj9Pf3///u3TsGRltb2/9v3rxhAABQrwkzPevuYAAAAABJRU5ErkJggg=="
-          className="dark"
-        />
-
+        <div className="image">
+          <Image
+            src="/images/zaid-light.png"
+            alt="Zaid Akhter"
+            width="120px"
+            height="120px"
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABtJREFUGFdj9Pf3///u3TsGRltb2/9v3rxhAABQrwkzPevuYAAAAABJRU5ErkJggg=="
+            className="light"
+          />
+          <Image
+            src="/images/zaid-dark.png"
+            alt="Zaid Akhter"
+            width="120px"
+            height="120px"
+            placeholder="blur"
+            blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAABtJREFUGFdj9Pf3///u3TsGRltb2/9v3rxhAABQrwkzPevuYAAAAABJRU5ErkJggg=="
+            className="dark"
+          />
+        </div>
         <h1>Zaid Akhter</h1>
         <p className="sub">
           <a href="https://en.wikipedia.org/wiki/Karachi">The City of Lights</a>
@@ -89,7 +90,7 @@ export default function Home() {
             <a href="mailto:zaidakhter1202@gmail.com">Email</a>
           </li>
           <li>
-            <a href="https://www.upwork.com/freelancers/zaidakhter">Upwork</a>
+            <a href="https://www.upwork.com/freelancers/zaid">Upwork</a>
           </li>
           <li>
             <a href="https://github.com/zaidakhterr">GitHub</a>
